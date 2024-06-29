@@ -1,0 +1,43 @@
+us:
+  mysql_host: 'mysql-uat-us.ckohxl2wcnzb.rds.cn-northwest-1.amazonaws.com.cn'
+  mysql_user: "qa"
+  mysql_pwd: "qa#123"
+  redis: [ { 'host': 'uat-us.em4qfj.clustercfg.cnw1.cache.amazonaws.com.cn', 'port': 6379 },
+           { 'host': 'uat-us.em4qfj.clustercfg.cnw1.cache.amazonaws.com.cn', 'port': 6379 } ]
+
+jp:
+  mysql_host: 'mysql-uat-jp.ckohxl2wcnzb.rds.cn-northwest-1.amazonaws.com.cn'
+  mysql_user: "qa"
+  mysql_pwd: "qa#123"
+  redis: [ { 'host': 'uat-jp.em4qfj.clustercfg.cnw1.cache.amazonaws.com.cn', 'port': 6379 } ]
+  kafka: "b-1.uatjp.102qm7.c4.kafka.cn-northwest-1.amazonaws.com.cn:9092,b-2.uatjp.102qm7.c4.kafka.cn-northwest-1.amazonaws.com.cn:9092"
+
+sg:
+  mysql_host: 'mysql-uat-sg.ckohxl2wcnzb.rds.cn-northwest-1.amazonaws.com.cn'
+  mysql_user: "qa"
+  mysql_pwd: "qa#321"
+  redis: [ { 'host': 'uat-us.em4qfj.clustercfg.cnw1.cache.amazonaws.com.cn', 'port': 6379 } ]
+  kafka: "b-2.uat-sg.fd8oxq.c4.kafka.cn-northwest-1.amazonaws.com.cn:9092,b-1.uat-sg.fd8oxq.c4.kafka.cn-northwest-1.amazonaws.com.cn:9092"
+
+
+hk:
+  mysql_host: 'mysql-uat-hk.ckohxl2wcnzb.rds.cn-northwest-1.amazonaws.com.cn'
+  mysql_user: "qa"
+  mysql_pwd: "qa#123"
+  redis: [ { 'host': 'uat-hk.em4qfj.clustercfg.cnw1.cache.amazonaws.com.cn', 'port': 6379 } ]
+  kafka: "b-2.uat-hk.j37sl5.c4.kafka.cn-northwest-1.amazonaws.com.cn:9092,b-1.uat-hk.j37sl5.c4.kafka.cn-northwest-1.amazonaws.com.cn:9092"
+
+au:
+  mysql_host: 'mysql-uat-au.ckohxl2wcnzb.rds.cn-northwest-1.amazonaws.com.cn'
+  mysql_user: "qa"
+  mysql_pwd: "qa#123"
+  redis: [ { 'host': 'uat-au.em4qfj.clustercfg.cnw1.cache.amazonaws.com.cn', 'port': 6379 } ]
+  kafka: "b-2.uatau.rry2ub.c4.kafka.cn-northwest-1.amazonaws.com.cn:9092,b-1.uatau.rry2ub.c4.kafka.cn-northwest-1.amazonaws.com.cn:9092"
+
+
+za:
+  mysql_host: 'mysql-uat-au.ckohxl2wcnzb.rds.cn-northwest-1.amazonaws.com.cn'
+  mysql_user: "qa"
+  #  mysql_pwd: "qa#123"
+  mysql_pwd: "qa#1234"
+  redis: [ { 'host': 'uat-au.em4qfj.clustercfg.cnw1.cache.amazonaws.com.cn', 'port': 6379 } ]

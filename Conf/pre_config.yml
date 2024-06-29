@@ -1,0 +1,76 @@
+us:
+  redis: [
+    #    { 'host': 'redis-cluster-trade.em4qfj.clustercfg.cnw1.cache.amazonaws.com.cn', 'port': 6379 },
+    { 'host': 'test01.k0qnqi.clustercfg.cnn1.cache.amazonaws.com.cn', 'port': 6379 }
+  ]
+  mysql_host: 'pre-us.clxptq1z8dud.rds.cn-north-1.amazonaws.com.cn'
+  mysql_user: "QA"
+  mysql_pwd: "webull1688"
+  kafka: "b-2.pre-us.jsllsb.c4.kafka.cn-north-1.amazonaws.com.cn:9092,b-1.pre-us.jsllsb.c4.kafka.cn-north-1.amazonaws.com.cn:9092"
+  mongo_host: '10.70.1.69'
+  mongo_user: ''
+  mongo_pwd: ''
+  login_url: 'https://pre-u1suser.webullbroker.com'
+  login_headers:
+    {
+      'Host': 'pre-u1suser.webullbroker.com',
+      'app': 'global',
+      'ver': '9.0.2.03',
+      'odid': '5fdf8c6cddbe7bb5',
+      'mnc': '00',
+      'os': 'android',
+      'hl': 'en',
+      'app-group': 'broker',
+      'ch': 'dev',
+      'tz': 'Asia/Shanghai',
+      'locale': 'zh',
+      'mcc': '310',
+      'platform': 'android',
+      'reqid': '6583a2d9b47d6d781bf17c76',
+      'mcc0': '310',
+      'osv': 'Android SDK: 29 (10)',
+      'appid': 'wb_phone',
+      'ph': 'Xiaomi Redmi Note 8 Pro',
+      'ver_code': '9000203',
+      'device-type': 'aPhone',
+      't_time': '1703125721766',
+      'mnc0': '00',
+      'did': 'f249de435c8a42bb9c0607f6e3422f4a',
+      'content-type': 'application/json; charset=utf-8',
+      'user-agent': 'okhttp/4.10.0'
+    }
+
+jp:
+  mysql_host: 'pre-jp.clxptq1z8dud.rds.cn-north-1.amazonaws.com.cn'
+  mysql_user: "qa"
+  mysql_pwd: "qa#123"
+  redis: [ { 'host': 'pre-jp.k0qnqi.clustercfg.cnn1.cache.amazonaws.com.cn', 'port': 6379 } ]
+  kafka: "b-2.pre-jp.kkh6jt.c4.kafka.cn-north-1.amazonaws.com.cn:9092,b-1.pre-jp.kkh6jt.c4.kafka.cn-north-1.amazonaws.com.cn:9092"
+
+sg:
+  mysql_host: 'pre-us.clxptq1z8dud.rds.cn-north-1.amazonaws.com.cn'
+  mysql_user: "QA"
+  mysql_pwd: "webull1688"
+  redis: [ { 'host': 'redis-cluster-trade.em4qfj.clustercfg.cnw1.cache.amazonaws.com.cn', 'port': 6379 } ]
+  kafka: "b-1.pre-sg.wlt5ek.c4.kafka.cn-north-1.amazonaws.com.cn:9092,b-2.pre-sg.wlt5ek.c4.kafka.cn-north-1.amazonaws.com.cn:9092"
+
+hk:
+  mysql_host: 'pre-us.clxptq1z8dud.rds.cn-north-1.amazonaws.com.cn'
+  mysql_user: "QA"
+  mysql_pwd: "webull1688"
+  redis: [ { 'host': 'redis-cluster-trade.em4qfj.clustercfg.cnw1.cache.amazonaws.com.cn', 'port': 6379 } ]
+  kafka: "b-2.prehk.2q9ups.c4.kafka.cn-north-1.amazonaws.com.cn:9092,b-1.prehk.2q9ups.c4.kafka.cn-north-1.amazonaws.com.cn:9092"
+
+au:
+  mysql_host: 'pre-au.clxptq1z8dud.rds.cn-north-1.amazonaws.com.cn'
+  mysql_user: "qa"
+  mysql_pwd: "qa#123"
+  redis: [ { 'host': 'pre-au.k0qnqi.clustercfg.cnn1.cache.amazonaws.com.cn', 'port': 6379 } ]
+  kafka: "b-1.preau.2l5dj0.c4.kafka.cn-north-1.amazonaws.com.cn:9092,b-2.preau.2l5dj0.c4.kafka.cn-north-1.amazonaws.com.cn:9092"
+
+
+za:
+  mysql_host: 'pre-au.clxptq1z8dud.rds.cn-north-1.amazonaws.com.cn'
+  mysql_user: "qa"
+  mysql_pwd: "qa#123"
+  redis: [ { 'host': 'pre-au.k0qnqi.clustercfg.cnn1.cache.amazonaws.com.cn', 'port': 6379 } ]

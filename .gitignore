@@ -1,0 +1,10 @@
+# 忽略 pytest 缓存目录
+/.pytest_cache/
+*.log       # 忽略所有 .log 文件
+/Pages/PageComponent/TestReport/*
+/TestCases/TestReport/*
+/TestCases/TestActivity/TestReport/*
+/TestCases/TestComponent/TestReport/*
+/TestReport/*
+/Utils/TestReport/*
+/.idea/
